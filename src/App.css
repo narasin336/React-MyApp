@@ -1,0 +1,105 @@
+:root {
+  --border-radius-500: 8px;
+  --color-on-background: #ffffff;
+  --fonts-primary: Karla, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
+body {
+  /* background-color: #2a385c; */
+  background-image: linear-gradient(320deg, hsl(215, 19%, 24%) 0% /* down */, hsl(215, 19%, 24%) /* up */ 100%);
+  font-family: var(--fonts-primary);
+  font-size: 14px;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.layout__wrapper {
+  background-image: linear-gradient(0deg, hsl(215, 14%, 16%) 0%, hsl(215, 19%, 29%) 100%);
+  border-radius: 3px;
+  box-shadow: 0 12px 16px rgba(0, 0, 0, .25);
+  margin: 3rem auto;
+  max-width: 370px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.header {
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.store-container {
+  text-align: center;
+  padding: 5px;
+  background-color: #2a385c;
+  color: white;
+}
+
+.items-container {
+  text-align: center;
+}
+
+.item-container {
+  padding: 5px;
+  border-bottom: 1px solid grey
+}
+
+.layout__wrapper_for_accordion {
+  /* background-image: linear-gradient(0deg, hsl(215, 14%, 16%) 0%, hsl(215, 19%, 29%) 100%); */
+  border-radius: 3px;
+  box-shadow: 0 12px 16px rgba(0, 0, 0, .25);
+  margin: 3rem auto;
+  max-width: 60%;
+}
+
+.accordion-spacing {
+  margin-bottom: 16px; /* Adjust the margin as needed to control the spacing */
+  border-radius: 10px !important ;
+  
+
+}
+
+.layout__wrapper_for_Register {
+
+  border-radius: 10px;
+  box-shadow: 0 12px 16px rgba(0, 0, 0, .25);
+  margin: 3rem auto;
+  max-width: 30%;
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.border_accordion_cust {
+  border: 2px solid #909EAB;
+  border-radius: 10px;
+  border-collapse: separate;
+  border-spacing: 20px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.input {
+  /* padding: 30px; */
+  margin-left:30px;
+  margin-right:30px;
+  /* margin-top:10px; */
+}
+
+.input_cust {
+  /* padding: 30px; */
+  margin-left:20px;
+  margin-right:20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
